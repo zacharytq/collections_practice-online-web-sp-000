@@ -1,3 +1,5 @@
+require "pry"
+
 def sort_array_asc(array)
   array.sort do |a, b|
     a <=> b
@@ -32,6 +34,6 @@ end
 
 def find_a(array)
   array.find_all do |i|
-    i == /a\w*/i
+    i[0] == "a"
   end
 end
