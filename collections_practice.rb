@@ -32,5 +32,4 @@ end
 
 def find_a(array)
   array.select {|v| v=~ /a\w*/i}
-  end
 end
