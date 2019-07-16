@@ -48,7 +48,8 @@ def add_s(array)
   counter = 0
   array.map do |i|
     if counter != 1
+      counter += 1
       i << "s"
-      end
+    end
   end
 end
