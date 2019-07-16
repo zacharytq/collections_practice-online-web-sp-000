@@ -23,3 +23,9 @@ def reverse_array(array)
   array = array.reverse
   array
 end
+
+def kesha_maker(array)
+  array.map do |a|
+    a.gsub(a[2], '$')
+  end
+end
