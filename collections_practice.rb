@@ -45,9 +45,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map do |a|
-    a << "s"
+  counter = 0
+  array.map do |i|
+    if counter != 1
+      i << "s"
+    end
   end
-  array[1].pop
-  array
 end
