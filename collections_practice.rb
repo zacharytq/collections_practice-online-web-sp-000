@@ -45,7 +45,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |a|
+  array.map do |a|
     a << "s"
   end
   array[1].pop
