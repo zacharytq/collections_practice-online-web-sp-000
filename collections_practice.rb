@@ -29,3 +29,7 @@ def kesha_maker(array)
     a.gsub(a[2], '$')
   end
 end
+
+def find_a(array)
+  array.find_all {|i| i == /a\w*/i}
+end
