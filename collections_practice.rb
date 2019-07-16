@@ -33,4 +33,5 @@ end
 def find_a(array)
   array.find_all do |i|
     i == /a\w*/i
+  end
 end
