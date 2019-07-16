@@ -31,6 +31,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  return_array = array.select {|i| i == /a\w*/i}
+  return_array = array.select {|i| i == /a\w*/}
   return_array
 end
