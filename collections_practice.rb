@@ -50,5 +50,6 @@ def add_s(array)
     if counter != 1
       i << "s"
     end
+    counter += 1
   end
 end
